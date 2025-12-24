@@ -1,0 +1,20 @@
+{
+  "key": "com.innodata.streamlit.dashboard",
+  "name": "Innodata Streamlit Dashboard",
+  "baseUrl": "https://imc8294.github.io/jira-streamlit-wrapper",
+  "authentication": {
+    "type": "none"
+  },
+  "modules": {
+    "jiraProjectPages": [
+      {
+        "key": "innodata-dashboard",
+        "name": {
+          "value": "Innodata Dashboard"
+        },
+        "url": "/index.html"
+      }
+    ]
+  },
+  "scopes": ["read"]
+}
