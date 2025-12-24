@@ -6,13 +6,17 @@
     "type": "none"
   },
   "modules": {
-    "jiraProjectPages": [
+    "webItems": [
       {
-        "key": "innodata-dashboard",
+        "key": "innodata-dashboard-link",
+        "location": "jira.project.sidebar.navigation",
         "name": {
           "value": "Innodata Dashboard"
         },
-        "url": "/index.html"
+        "url": "https://innodatajiradashboard.streamlit.app",
+        "target": {
+          "type": "page"
+        }
       }
     ]
   },
